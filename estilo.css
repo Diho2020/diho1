@@ -1,0 +1,757 @@
+aside#menu-cortina{
+    
+    width: 290px;
+    height: 100%;
+    display: none;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    top: 0;
+    right: -290px;
+    z-index: 999999;
+
+    background: #c9a713;
+
+}
+aside#menu-cortina a{
+     width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    
+    transition: all 0.3 ease-in;
+}
+aside#menu-cortina a i{
+    padding: 19px 0 0 0;
+    font-size: 1.6em;
+    
+    transition: all 0.3 ease-in;
+}
+aside#menu-cortina a:hover i{
+    transition: all 0.3 ease-in;
+    color: #c9a713;
+}
+aside#menu-cortina a:hover i{
+    transition: all 0.3 ease-in;
+    color: #c9a713;
+}
+
+
+
+aside#menu-cortina a#abrir{
+    left: -50px;
+    color: #fff;
+    z-index: 10;
+    
+    background: #000;
+
+}
+
+
+aside#menu-cortina a#cerrar{
+    
+    left: -50px;
+    color: #fff;
+    z-index: 9;
+    
+    background: #000;
+}
+
+
+aside#menu-cortina nav#menu-moviles{
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    position: relative;
+    float: none;
+}
+aside#menu-cortina nav#menu-moviles a{
+    
+    width: 100%;
+    height: auto;
+    margin: 30% auto;
+    position: relative;
+    float: none;
+    display: block;
+    
+   font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+aside#menu-cortina nav#menu-moviles a:hover{
+    
+    transition: all 0.3 ease-in;
+    border-bottom: solid 2px #c9a713;
+    color: #c9a713;
+}
+
+
+header {
+    
+    width: 100%;            
+    height: 140px;          
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    
+    background: #000000;
+}
+
+
+header article {
+    
+    width: 1000px;
+    height: 140px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+}
+header article a#logo {
+    
+    width: 190px;
+    height: 190px;
+    display: block;
+    margin: 7px 15px 10px 10px;
+    float: left;
+    position: relative;
+    
+}
+header article a#logo img {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+}
+header article nav#menu-principal {
+    
+    width: 670px;
+    height: 100px;
+    display: block;
+    margin: 15px -50px 10px 10px;
+    float: right;
+    position: relative;
+}
+header article nav#menu-principal a {
+    
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 2px;
+    float: left;
+    position: relative;
+    
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 46px 15px;
+    transition: all 0.3s ease-in;   
+    
+}
+header article nav#menu-principal a:hover {
+    
+    color:#c9a713;
+    border-bottom: solid 2px #e8bd06;
+    transition: all 0.3s ease-in;
+    
+}
+main {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 90px auto 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #fff;
+}
+
+main section#fila-banner-frase {
+    
+    width: 100%;
+    height: 855px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: url("img/FONDO1.jpg") no-repeat top center fixed #000;
+    background-size: cover;
+}
+main section#fila-banner-frase article {
+    
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#fila-banner-frase article h1 {
+    
+    
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 4.7em;
+    padding: 290px 0 50px 0;
+    margin: 0;
+    font-weight: 600;
+    color: #c9a713;
+    
+}
+main section#fila-banner-frase article p {
+    
+    
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    color: #c9a713;
+}
+main section#fila-banner-frase article a{
+    
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: 35px auto;
+    float: none;
+    position: relative;
+    
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    padding: 5x 1px;
+    font-weight: 200;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.10em;
+    background: #c9a713;
+    
+    color: #ffffff;
+    transition: all 0.3s ease-in; 
+    
+}
+main section#fila-4-circulos{
+    
+    width: 100%;
+    height: 555px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+
+        
+}
+main section#fila-4-circulos article{
+
+    width: 1200px;
+    height: 500px;
+    display: block;
+    margin: 30px 10%;
+    float: none;
+    position: relative;
+
+}
+
+main section#fila-4-circulos article figure{
+
+    width: 290px;
+    height: 290px;
+    display: block;
+    margin: 100px 100px 100px 0;
+    float: left;
+    position: relative;
+    
+}
+main section#fila-4-circulos article figure:nth-child(3){
+
+    margin: 50 0 auto;
+
+}
+main section#fila-4-circulos article figure img{
+
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 5%;
+
+}
+main section#fila-4-circulos article figure h4{
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 12px 0 auto;
+    float: none;
+    position: relative;
+    
+    font-family: 'Playfair Display', serif;
+    color: #c9a713;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0px 0 0 0;
+    
+}
+main section#fila-2-fotos {
+    
+    width: 100%;
+    height: 630px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative;
+    
+}
+main section#fila-2-fotos article#foto-izquierda {
+    
+    width: 50%;
+    height: 630px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/Ropafondo.jpg) no-repeat top center;
+    background-size: cover;
+    
+}
+main section#fila-2-fotos article#foto-derecha {
+    
+    width: 50%;
+    height: 630px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    background: url(img/Cosmeticosfondo.jpg) no-repeat top center;
+    background-size: cover;
+    
+}
+main section#fila-frase-larga {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+}
+main section#fila-frase-larga article {
+    
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    margin: 5% 10%;
+    
+}
+main section#fila-frase-larga article h3 {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0 auto;
+    float: none;
+    position: relative;
+    
+    font-family: 'Playfair Display', serif;
+    color: #c9a713;
+    text-align: center;
+    text-decoration: none;
+    font-size: 4.5em;
+    font-weight: 800;
+    padding: 0;
+    text-transform: uppercase;
+}
+main section#fila-frase-larga article p {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 15x 0 auto;
+    float: none;
+    position: relative;
+    
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3m;
+    font-weight: 500;
+    padding: 0;
+}
+main section#fila-3-fotos {
+    
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #000;
+    
+}
+main section#fila-3-fotos article#img-izquierda {
+    
+    width: 33.3%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/Producto%20.jpeg) no-repeat top center;
+    background-size: cover;
+    
+}
+main section#fila-3-fotos article#img-centro {
+    
+    width: 33.3%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/Producto%202.jpeg) no-repeat top center;
+    background-size: cover;
+    
+}
+main section#fila-3-fotos article#img-derecha {
+    
+    width: 33.3%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/Producto%201.jpeg) no-repeat top center;
+    background-size: cover;
+}
+footer {
+    
+    width: 100%;
+    height: 310px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #000;
+        
+}
+footer article {
+    
+    width: 260px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+footer article nav {
+    
+    width: 100%;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 60px 0 0 0;
+}
+
+footer article nav a#Instagram {
+    
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+}
+footer article nav a#Instagram i {
+   
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color:  #c9a713;
+    padding: 10px 39px;
+    transition: all 0.3s ease-in;
+}
+
+footer article nav a#Whatsapp {
+    
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+}
+
+footer article nav a#Whatsapp i {
+  
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #c9a713;
+    padding: 10px 5px;
+    transition: all 0.3s ease-in;
+}
+footer a#logo-footer {
+    
+    width: 190px;
+    height: 140px;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    position: relative
+    
+}
+footer a#logo-footer img {
+    
+    width: 190px;
+    height: 140px;
+    display: block;
+    margin:  0 auto;
+    float: none;
+    position:relative;
+    padding: 20px 0px 5px 0px;
+    
+}
+
+@media only screen and (max-width: 1199px)
+
+
+{
+    
+    
+    header article a#logo{
+
+    
+        margin: 0px 10px 10px 10px;
+    }
+    aside#menu-cortina{   
+        
+    
+        
+    
+        
+        display: block;
+    }
+   header article nav#menu-principal a{
+       
+       
+    
+       display: none;  
+   }
+    
+
+   @media only screen and (max-width: 1199px){
+    
+       
+   header {
+        
+       width:100%;
+    }
+    
+    
+    header article{
+    
+        width: auto;
+        height: 139px;
+    }
+    
+    
+    ]
+    
+    header article {
+        
+        width: 90%;
+        height: 70px;
+        
+    }
+    
+    header article a#logo {
+    
+    
+    
+        width: 170px;
+        height: 170px;
+        margin: 18px;
+    
+}
+    
+    main {
+        
+    width: 121%;
+    height: auto;
+  
+}
+    footer {
+        
+    width: 121%;
+    height: 310px;
+ 
+}
+    
+
+@media only screen and (max-width: 1099px){
+    
+    
+    header {
+           
+        width:100%;
+    }
+    
+    
+    header article{
+    
+        width: auto;
+        height: 139px;
+    }
+    
+    
+    ]
+    
+    header article {
+        
+        width: 90%;
+        height: 70px;
+        
+    }
+    
+    main {
+        
+       width: 136%;
+       height: auto;
+  
+}
+    footer {
+        
+       width: 136%;
+       height: 310px;
+
+}
+    @media only screen and (max-width: 999px){
+    
+    
+    header {
+           
+        width:100%;
+    }
+    
+    
+    header article{
+    
+        width: auto;
+        height: 139px;
+    }
+    
+    
+    ]
+    
+    header article {
+        
+        width: 90%;
+        height: 70px;
+        
+    }
+    
+    main {
+        
+       width: 136%;
+       height: auto;
+  
+}
+    footer {
+        
+       width: 136%;
+       height: 310px;
+
+}
+
+@media only screen and (max-width: 899px){
+    
+    
+    header {
+           
+        width:100%;
+    }
+    
+    
+    header article{
+    
+        width: auto;
+        height: 139px;
+    }
+    
+    
+    ]
+    
+    header article {
+        
+        width: 90%;
+        height: 70px;
+        
+    }
+    
+    main {
+        
+       width: 136%;
+       height: auto;
+  
+}
+    footer {
+        
+       width: 136%;
+       height: 310px;
+
+}
+
+    
+
+    
+    
+    
